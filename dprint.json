@@ -1,0 +1,22 @@
+{
+  "indentWidth": 2,
+  "newLineKind": "lf",
+  "markdown": {
+    "textWrap": "maintain"
+  },
+  "includes": [
+    "**/*.{json,md}"
+  ],
+  "excludes": [
+    "**/node_modules/**",
+    "**/dist/**",
+    "**/build/**",
+    "**/coverage/**",
+    "**/.cache/**",
+    "**/package-lock.json"
+  ],
+  "plugins": [
+    "npm:@dprint/json@0.23.0",
+    "npm:@dprint/markdown@0.23.3"
+  ]
+}
