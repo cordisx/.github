@@ -1,9 +1,4 @@
 {
-  "indentWidth": 2,
-  "newLineKind": "lf",
-  "markdown": {
-    "textWrap": "maintain"
-  },
   "includes": [
     "**/*.{json,md}"
   ],
@@ -15,8 +10,5 @@
     "**/.cache/**",
     "**/package-lock.json"
   ],
-  "plugins": [
-    "npm:@dprint/json@0.23.0",
-    "npm:@dprint/markdown@0.23.3"
-  ]
+  "extends": "https://raw.githubusercontent.com/cordisx/cordisxmono/c63c2e8c2ba7e11502934a52ad2ce3734e804cdc/tooling/quality/dprint/docs.json"
 }
